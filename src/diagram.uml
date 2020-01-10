@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="621.375" y="630.0">Ticket</node>
+    <node x="415.86305658627083" y="850.0">Matrix</node>
+    <node x="392.2266929499072" y="1866.0">Flight</node>
+    <node x="802.1917903525045" y="1381.0">Airport</node>
+    <node x="423.2916280148423" y="0.0">Passenger</node>
+    <node x="465.99999999999994" y="1337.0">EconomyTicket</node>
+    <node x="0.0" y="1282.0">CrewMember</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="EconomyTicket" target="Ticket">
+      <point x="106.25" y="-202.0" />
+      <point x="699.75" y="1262.0" />
+      <point x="697.875" y="1262.0" />
+      <point x="-51.0" y="301.0" />
+    </edge>
+    <edge source="EconomyTicket" target="Matrix">
+      <point x="-106.25" y="-202.0" />
+      <point x="487.24999999999994" y="1262.0" />
+      <point x="448.61305658627083" y="1262.0" />
+      <point x="-32.75" y="81.0" />
+    </edge>
+    <edge source="Ticket" target="Passenger">
+      <point x="-85.0" y="-301.0" />
+      <point x="663.875" y="610.0" />
+      <point x="637.3630565862709" y="610.0" />
+      <point x="47.57142857142867" y="290.0" />
+    </edge>
+    <edge source="Flight" target="EconomyTicket">
+      <point x="-55.818181818181756" y="-367.0" />
+      <point x="643.4085111317254" y="1846.0" />
+      <point x="593.5" y="1846.0" />
+      <point x="0.0" y="202.0" />
+    </edge>
+    <edge source="Flight" target="CrewMember">
+      <point x="-279.0909090909091" y="-367.0" />
+      <point x="420.1357838589981" y="1846.0" />
+      <point x="55.75" y="1846.0" />
+      <point x="-167.25" y="257.0" />
+    </edge>
+    <edge source="EconomyTicket" target="Passenger">
+      <point x="-21.25" y="-202.0" />
+      <point x="572.25" y="1262.0" />
+      <point x="599.875" y="1262.0" />
+      <point x="599.875" y="610.0" />
+      <point x="542.2201994434138" y="610.0" />
+      <point x="-47.571428571428555" y="290.0" />
+    </edge>
+    <edge source="Flight" target="Ticket">
+      <point x="55.818181818181756" y="-367.0" />
+      <point x="755.0448747680889" y="1846.0" />
+      <point x="780.6917903525045" y="1846.0" />
+      <point x="780.6917903525045" y="1252.0" />
+      <point x="799.875" y="1252.0" />
+      <point x="51.0" y="301.0" />
+    </edge>
+    <edge source="CrewMember" target="Passenger">
+      <point x="111.5" y="-257.0" />
+      <point x="334.5" y="1262.0" />
+      <point x="225.32780612244898" y="1262.0" />
+      <point x="225.32780612244898" y="610.0" />
+      <point x="494.64877087198516" y="610.0" />
+      <point x="-95.14285714285711" y="290.0" />
+    </edge>
+    <edge source="Flight" target="Airport">
+      <point x="279.0909090909091" y="-367.0" />
+      <point x="978.3176020408164" y="1846.0" />
+      <point x="963.0251236858378" y="1846.0" />
+      <point x="64.33333333333326" y="158.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="399.5" y="2318.5" />
+  <SelectedNodes>
+    <node>EconomyTicket</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
